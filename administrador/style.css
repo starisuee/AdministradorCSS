@@ -1,0 +1,30 @@
+:root{
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --azulito: #8A99AE;
+}
+
+.bg-primary{
+    background-color: var(--azulito) !important;
+}
+
+.nav-a, 
+.nav-a:hover, 
+.opcion-titulo{
+    color: var(--negro);
+}
+
+.nav-a:hover, 
+.opcion:hover,
+.actual{
+    font-weight: bolder;
+}
+
+.container-fluid{
+    width: 96% !important;
+}
+
+.icono{
+    width: 150px;
+    height: auto;
+}
